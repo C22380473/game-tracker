@@ -20,8 +20,15 @@ Android Studio: The official IDE for Android development.
 
 ## Instructions for Running the Game Tracker App
 
-### 1. Opening the Project:
-1. Open the ‘GameTrackerApp’ folder in Android Studio.
+### Clone Repo
+Open a terminal and run:
+```sh
+git clone https://github.com/C22380473/game-tracker.git
+cd game-tracker
+```
+
+### 1. Opening the Project
+1. Open the ‘game-tacker’ folder in Android Studio.
 2. Wait for Android Studio to sync and build the project. This may take a few moments.
 3. Ensure there are no errors in the Build tab at the bottom of Android Studio. If any errors are present, follow the prompts to resolve them.
 

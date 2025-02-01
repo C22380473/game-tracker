@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mygames">
+
+    <!-- Reference: The following code is from AndroidStudio's built-in Bottom Navigation Views Activity Template -->
+    <!-- It has been customised to fit the requirements of the Game Tracker app. -->
+
+    <fragment
+        android:id="@+id/navigation_mygames"
+        android:name="com.example.gametrackerapp.ui.mygames.MyGamesFragment"
+        android:label="@string/title_mygames"
+        tools:layout="@layout/fragment_mygames"/>
+
+    <fragment
+        android:id="@+id/navigation_inprogress"
+        android:name="com.example.gametrackerapp.ui.inprogress.InProgressFragment"
+        android:label="@string/title_inprogress"
+        tools:layout="@layout/fragment_in_progress" />
+
+    <fragment
+        android:id="@+id/navigation_completed"
+        android:name="com.example.gametrackerapp.ui.completed.CompletedFragment"
+        android:label="@string/title_completed"
+        tools:layout="@layout/fragment_completed" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.gametrackerapp.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_wishlist"
+        android:name="com.example.gametrackerapp.ui.wishlist.WishlistFragment"
+        android:label="@string/title_wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <!-- Reference complete -->
+
+</navigation>

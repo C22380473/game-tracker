@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/edit_game_heading"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:paddingLeft="130dp"
+        android:text="Add Game"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edit_game_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Title" />
+
+    <EditText
+        android:id="@+id/edit_game_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Genre" />
+
+    <EditText
+        android:id="@+id/edit_game_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Release Year" />
+
+    <EditText
+        android:id="@+id/edit_game_platform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Platform" />
+
+    <EditText
+        android:id="@+id/edit_game_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status" />
+
+    <EditText
+        android:id="@+id/edit_game_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating" />
+
+    <!-- Start Date Picker -->
+    <EditText
+        android:id="@+id/edit_game_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <!-- Finish Date Picker -->
+    <EditText
+        android:id="@+id/edit_game_finish_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Finish Date"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

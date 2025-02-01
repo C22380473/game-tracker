@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Reference: The following code is from AndroidStudio's built-in Bottom Navigation Views Activity Template -->
+    <!-- It has been customised to fit the requirements of the Game Tracker app. -->
+
+    <item
+        android:id="@+id/navigation_mygames"
+        android:icon="@drawable/ic_mygames_black_24dp"
+        android:title="@string/title_mygames" />
+
+    <item
+        android:id="@+id/navigation_inprogress"
+        android:icon="@drawable/rise"
+        android:title="@string/title_inprogress" />
+
+    <item
+        android:id="@+id/navigation_completed"
+        android:icon="@drawable/finish"
+        android:title="@string/title_completed" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/heart"
+        android:title="@string/title_favorites" />
+
+    <item
+        android:id="@+id/navigation_wishlist"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:title="@string/title_wishlist" />
+
+    <!-- Reference complete -->
+
+</menu>

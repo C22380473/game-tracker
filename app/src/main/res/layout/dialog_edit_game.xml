@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_game_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Title" />
+
+    <EditText
+        android:id="@+id/edit_game_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Genre" />
+
+    <EditText
+        android:id="@+id/edit_game_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Release Year" />
+
+    <EditText
+        android:id="@+id/edit_game_platform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Platform" />
+
+    <EditText
+        android:id="@+id/edit_game_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status" />
+
+    <EditText
+        android:id="@+id/edit_game_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating" />
+
+    <!-- Start Date Picker -->
+    <EditText
+        android:id="@+id/edit_game_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <!-- Finish Date Picker -->
+    <EditText
+        android:id="@+id/edit_game_finish_date"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Finish Date" />
+
+</LinearLayout>

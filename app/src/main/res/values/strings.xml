@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GameTrackerApp</string>
+    <string name="title_mygames">My Games</string>
+    <string name="title_inprogress">In Progress</string>
+    <string name="title_completed">Completed</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_wishlist">Wishlist</string>
+</resources>
+
